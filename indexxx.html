@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VA Fashion Samarinda</title>
+  <style>
+    :root {
+      --pink: #eb3679;
+      --soft-pink: #090909;
+      --black: #f488bd;
+      --white: #ffffff;
+      --gray: #f5f5f5;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Poppins', Arial, sans-serif;
+      background: linear-gradient(135deg, #fff, #ffe4ec);
+      color: var(--black);
+    }
+
+    header {
+      background: var(--black);
+      color: var(--white);
+      padding: 20px;
+      text-align: center;
+      position: sticky;
+      top: 0;
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      gap: 25px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: var(--white);
+      text-decoration: none;
+      font-size: 14px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--pink);
+    }
+
+    .hero {
+      background: linear-gradient(rgba(208, 93, 156, 0.5), rgba(225, 194, 194, 0.5)), url('https://via.placeholder.com/1200x500');
+      background-size: cover;
+      background-position: center;
+      color: white;
+      text-align: center;
+      padding: 120px 20px;
+    }
+
+    .hero h1 {
+      font-size: 42px;
+      margin-bottom: 10px;
+    }
+
+    .hero p {
+      font-size: 18px;
+    }
+
+    .btn {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 12px 25px;
+      background: var(--pink);
+      color: white;
+      text-decoration: none;
+      border-radius: 30px;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .btn:hover {
+      background: #e6005c;
+      transform: scale(1.05);
+    }
+
+    .section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+      color: var(--black);
+    }
+
+    .products {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 25px;
+    }
+
+    .card {
+      background: var(--white);
+      padding: 15px;
+      border-radius: 15px;
+      width: 220px;
+      box-shadow: 0 5px 15px rgba(223, 137, 180, 0.1);
+      transition: 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .card h3 {
+      margin: 10px 0 5px;
+    }
+
+    .card p {
+      color: var(--pink);
+      font-weight: bold;
+    }
+
+    #tentang {
+      background: linear-gradient(135deg, #fff, #ffd6e7);
+    }
+
+    #kontak {
+      background: var(--black);
+      color: var(--white);
+    }
+
+    footer {
+      background: #fabbdc;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>VA Fashion Samarinda</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#produk">Produk</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1>Tampil Stylish & Percaya Diri</h1>
+  <p>Fashion modern dengan sentuhan elegan & harga terjangkau</p>
+  <a href="#produk" class="btn">Belanja Sekarang</a>
+</section>
+
+<section id="produk" class="section">
+  <h2>Produk Kami</h2>
+  <div class="products">
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Produk 1">
+      <h3>Dress Elegant</h3>
+      <p>Rp120.000</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Produk 2">
+      <h3>Casual Outfit</h3>
+      <p>Rp90.000</p>
+    </div>
+    <div class="card">
+      <img src="https://via.placeholder.com/200" alt="Produk 3">
+      <h3>Hijab Style</h3>
+      <p>Rp50.000</p>
+    </div>
+  </div>
+</section>
+
+<section id="tentang" class="section">
+  <h2>Tentang Kami</h2>
+  <p>VA Fashion Samarinda hadir dengan koleksi fashion yang stylish, nyaman, dan mengikuti tren masa kini. Perpaduan kualitas premium dan harga terjangkau membuat kami menjadi pilihan tepat untuk tampil percaya diri setiap hari.</p>
+</section>
+
+<section id="kontak" class="section">
+  <h2>Kontak</h2>
+  <p>Instagram: @vafashion.samarinda</p>
+  <p>WhatsApp: 08xxxxxxxxxx</p>
+</section>
+
+<footer>
+  <p>&copy; 2026 VA Fashion Samarinda. All Rights Reserved.</p>
+</footer>
+
+</body>
+</html>
